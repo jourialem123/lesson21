@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity2</title>
+</head>
+<body>
+    <h2>Loops in Javascript</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <h3 id="al"></h3>
+<script>
+var fruits=["Mango","Apple","Orange","Kiwi","Cherry"];
+document.getElementById("p1").innerHTML=fruits;
+var i=0
+var text="";
+for(i=0;i<fruits.length;i++){
+    text+=fruits[i]+"<br>";
+}
+document.getElementById("al").innerHTML=text;
+</script>
+</body>
+</html>
