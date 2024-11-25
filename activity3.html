@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity3</title>
+</head>
+<body>
+    <h2>Switch in Javascript</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <script>
+        var day=""
+        var date=new Date();
+        switch(date.getDay()){
+            case 0:
+             day="sunday";
+            break;
+             case 1:
+               day = "monday";
+                break;
+                 case 2:
+             day = "Tuesday";
+                break;
+                 case 3:
+             day = "Wednesday";
+                break;
+       case 4:
+             day = "Tursday";
+                break;
+           case 5:
+               day = "sFriday";
+                break; 
+            case 6:
+                day = "saturday";
+                break;                      
+        }
+        document.getElementById("p1").innerHTML=date;
+document.getElementById("p2").innerHTML="Today is "+day;
+</script>
+</body>
+</html>
